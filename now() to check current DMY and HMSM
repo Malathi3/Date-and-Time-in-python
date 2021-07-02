@@ -1,0 +1,16 @@
+To get both current date and time datetime.now() function of datetime module is used.
+
+importing datetime module for now()
+import datetime  
+
+using now() to get current time
+current_time=datetime.datetime.now() 
+
+now() has different attributes
+print("year:",current_time.year) 
+print("month:",current_time.month)
+print("day:",current_time.day)
+print("hour:",current_time.hour)
+print("minute:",current_time.minute)
+print("second:",current_time.second)
+print("microsecond:",current_time.microsecond)
