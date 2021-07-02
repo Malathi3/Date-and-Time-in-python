@@ -1,0 +1,15 @@
+Getting time for particular timezone.
+
+To get both current date and time datetime.now() function of datetime module is used.
+
+importing datetime module for now().
+import datetime  
+
+Timezone are defined in pytz library.
+import  pytz 
+
+To get the date time for a particular timezone now()function takes timezone as input to give timezone oriented output time.
+current_time=datetime.datetime.now(pytz.timezone('asia/kolkata'))
+
+Dispaly the data
+print("current time:",current_time)
