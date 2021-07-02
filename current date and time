@@ -1,0 +1,10 @@
+# To get both current date and time datetime.now() function of datetime module is used.
+
+# importing datetime module for now().
+import datetime    
+
+# using now() function to get current time.
+current_time=datetime.datetime.now()      
+
+# Display the data.
+print("current date and time:", current_time)
